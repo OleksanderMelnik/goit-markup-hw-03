@@ -1,0 +1,218 @@
+/**----------COLORS-------------------*/
+
+:root {
+    --main-color: #2E2F42;
+    --second-background-color: #F4F4FD;
+    --text-color:#434455;
+    --background-hover-color: #404BBF;
+    --hero-hover-color: #FFFFFF;
+    --iris-color: #4D5AE5;
+    
+}
+
+/**----------GENERAL REQUIREMENTS------------------*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: var(--hero-hover-color);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+.webstudio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--main-color);
+}
+
+.hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+/**----------TOP LOGO-------------------*/
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex ;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris-color);
+}
+
+.logo-span-top {
+   color: #2E2F42;
+}
+
+/**----------NAVIGATION-------------------*/
+
+.top-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+}
+
+.top-link:hover,
+.top-link:focus {
+color: var(--background-hover-color);
+}
+
+.address-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: var(--background-hover-color);
+}
+
+.address {
+    font-style: normal;
+}
+/**----------HERO WEBSTUDIO-------------------*/
+
+.hero {
+    background-color: var(--main-color);
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--hero-hover-color);
+}
+
+/**----------HERO BUTTON-------------------*/
+
+.hero-btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: var(--hero-hover-color);
+    background-color: var(--iris-color);
+    cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: var(--background-hover-color);
+}
+
+/**----------FEATURES-------------------*/
+
+.peculiarities {
+    color: var(--main-color);
+}
+
+/**----------WHAT ARE WE GOING-------------------*/
+
+/**----------OUR TEAM-------------------*/
+
+.team {
+    background-color: var(--second-background-color);
+}
+
+.team-item {
+    background-color: #FFFFFF;
+}
+
+.team-list {
+    background-color: #FFFFFF;
+}
+
+/**----------FUTER-------------------*/
+
+.footer {
+    background-color: var(--main-color);
+}
+
+.text-footer {
+    color:var(--cloud-color)
+}
+
+.logo-span {
+    color: var(--second-background-color);
+}
+
+/**----------PORTFOLIO-------------------*/
+
+.hero-portfolio {
+    color: var(--text-color);
+} 
+
+.filter-btn {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    background-color: var(--second-background-color);
+    color: var(--iris-color);
+    cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    background-color: var(--background-hover-color);
+    color: var(--hero-hover-color);
+}
+
+/**----------PECULIARITES------------------*/
+
