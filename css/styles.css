@@ -270,8 +270,6 @@ color: var(--background-hover-color);
 
 .team-list {
     display: flex;
-    background-color: #FFFFFF;
-    margin-top: 72px;
     gap: 24px;
 }
 
