@@ -7,6 +7,7 @@
     --background-hover-color: #404BBF;
     --hero-hover-color: #FFFFFF;
     --iris-color: #4D5AE5;
+    --border-btn: #e7e9fc;
     
 }
 
@@ -71,11 +72,12 @@ img {
     color: var(--text-color);
 }
 
-.webstudio-title {
+.vebstudio-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    margin-bottom: 72px;
     text-align: center;
     text-transform: capitalize;
     color: var(--main-color);
@@ -103,6 +105,7 @@ img {
 }
 
 .displayflax {
+    align-items: center;
     display: flex;
 }
 
@@ -128,7 +131,8 @@ img {
 
 .top-list {
     display: flex;
-    justify-content:space-between;
+    padding: 24px 0;
+    gap: 40px;
     width: 261px;
     margin-right: 332px;
 }
@@ -171,7 +175,7 @@ color: var(--background-hover-color);
 .address-list {
     display: flex;
     width: 344px;
-    justify-content: space-between;
+    gap: 40px;
 }
 
 /**----------HERO WEBSTUDIO-------------------*/
@@ -189,7 +193,7 @@ color: var(--background-hover-color);
     letter-spacing: 0.02em;
     color: var(--hero-hover-color);
     padding-bottom: 48px;
-    width: 496px;
+    max-width: 496px;
     margin: auto;
 }
 
@@ -200,6 +204,9 @@ color: var(--background-hover-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    min-width: 169px;
+    height: 56px;
+    border: none;
     letter-spacing: 0.04em;
     color: var(--hero-hover-color);
     background-color: var(--iris-color);
@@ -218,22 +225,29 @@ color: var(--background-hover-color);
 
 /**----------FEATURES-------------------*/
 
-.peculiarities {
-    color: var(--main-color);
-}
 .specifics {
-    display: flex;
-    gap: 24px;
     padding-top: 120px;
     padding-bottom: 120px;
 }
 
+.specifics-title {
+    margin-bottom: 8px;
+    color: var(--main-color);
+}
+.specifics-list {
+    display: flex;
+    gap: 24px;
+}
+
 /**----------WHAT ARE WE GOING-------------------*/
 
-.webstudio-list {
+.our-works {
+    padding-bottom: 120px;
+}
+
+.our-works-list {
     display: flex;
     padding-top: 72px;
-    padding-bottom: 120px;
     gap: 24px;
 }
 
@@ -245,10 +259,6 @@ color: var(--background-hover-color);
     background-color: var(--second-background-color);
 }
 
-.webstudio-title {
-    padding-top: 120px;
-}
-
 .team-list {
     display: flex;
     background-color: #FFFFFF;
@@ -257,36 +267,40 @@ color: var(--background-hover-color);
 }
 
 .team-item {
+    border-radius: 0px 0px 4px 4px;
     text-align: center;
     background-color: #FFFFFF;
 }
 
+.team-name-position {
+    padding: 32px 16px;
+}
+
 .team-title {
     text-align: center;
-    margin-top: 32px;
+    margin-bottom: 8px;
 }
 
 .team-text {
     margin-top: 8px;
-    padding-bottom: 32px;
 }
 
 
 /**----------FUTER-------------------*/
 
 .footer {
+    padding: 100px 0;
     background-color: var(--main-color);
 }
 
 .logo-footer {
-    padding-top: 100px;
+    display: inline-block;
 }
 
 .text-footer {
     color: var(--second-background-color);
     width: 264px;
     margin-top: 16px;
-    padding-bottom: 100px;
 }
 
 .logo-span {
@@ -295,12 +309,16 @@ color: var(--background-hover-color);
 
 /**----------PORTFOLIO-------------------*/
 
+.section-portfolio {
+    padding: 96px 0 120px;
+}
+
 .hero-portfolio {
     color: var(--text-color);
 } 
 
 .btn-list {
-    padding-top: 168px;
+    margin-bottom: 72px;
     justify-content: center;
     gap: 24px;
 }
@@ -315,6 +333,7 @@ color: var(--background-hover-color);
     min-width: 69px;
     height: 48px;
     padding: 12px 24px;
+    border: 1px solid var(--border-btn);
     background-color: var(--second-background-color);
     color: var(--iris-color);
     cursor: pointer;
@@ -324,27 +343,26 @@ color: var(--background-hover-color);
 
 .filter-btn:hover,
 .filter-btn:focus {
+    border: 1px solid transparent;
     background-color: var(--background-hover-color);
     color: var(--hero-hover-color);
 }
 
 .pictures-portfolio {
     display: flex;
+    row-gap: 48px;
     flex-wrap: wrap;
     gap: 24px;
     margin-top: 72px;
     padding-bottom: 120px;
 }
 
-.img-title{
-    margin-left: 16px;
-    margin-top: 32px;
+.container-img {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
 }
 
-.img-text {
-    margin-left: 16px;
-    margin-top: 8px;
-    margin-bottom: 80px;
-}
 /**----------PECULIARITES------------------*/
 
