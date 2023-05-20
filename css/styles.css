@@ -139,6 +139,7 @@ img {
 }
 
 .top-link {
+    padding: 24px 0;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -302,6 +303,7 @@ color: var(--background-hover-color);
 }
 
 .logo-footer {
+    margin-bottom: 16px;
     display: inline-block;
 }
 
@@ -374,6 +376,7 @@ color: var(--background-hover-color);
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+    row-gap: 48px;
     margin-bottom: 8px;
 }
 
