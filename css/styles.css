@@ -232,10 +232,10 @@ color: var(--background-hover-color);
     padding-bottom: 120px;
 }
 
-.specifics-title {
+/**.specifics-title {
     margin-bottom: 8px;
     color: var(--main-color);
-}
+}*/
 .specifics-list {
     display: flex;
     gap: 24px;
