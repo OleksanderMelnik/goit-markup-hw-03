@@ -194,9 +194,9 @@ color: var(--background-hover-color);
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: var(--hero-hover-color);
-    padding-bottom: 48px;
     max-width: 496px;
     margin: auto;
+    margin-bottom: 48px;
 }
 
 /**----------HERO BUTTON-------------------*/
@@ -253,7 +253,6 @@ color: var(--background-hover-color);
 
 .our-works-list {
     display: flex;
-    padding-top: 72px;
     gap: 24px;
 }
 
@@ -305,7 +304,6 @@ color: var(--background-hover-color);
 .text-footer {
     color: var(--second-background-color);
     width: 264px;
-    margin-top: 16px;
     line-height: 1.5;
 }
 
@@ -343,7 +341,6 @@ color: var(--background-hover-color);
     background-color: var(--second-background-color);
     color: var(--iris-color);
     cursor: pointer;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
 }
 
